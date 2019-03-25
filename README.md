@@ -1,7 +1,17 @@
 SSRS delivery extension for SharePoint
 ======================================
 
-PURPOSE
+## Content:
+
+<ul>
+    <li><a href="#purpose">Purpose</a></li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#build">Build</a></li>
+    <li><a href="#deployment">Deployment</a></li>
+</ul>
+
+
+<a name="purpose">PURPOSE</a>
 -------
 
 The goal is to provide a [SSRS delivery extension](https://docs.microsoft.com/en-us/sql/reporting-services/extensions/delivery-extension/delivery-extensions-overview?view=sql-server-2017) that targets SharePoint library/folder.
@@ -13,7 +23,7 @@ The goal is to provide a possibility to save a result of a subscription to a spe
 We used UNC path for export to SharePoint in the past, but we did not find it very reliable, that's why we created this extension.
 
 
-PREREQUISITES
+<a name="prerequisites">PREREQUISITES</a>
 -------------
 
 ### .NET Framework 3.5
@@ -29,7 +39,7 @@ Visual Studio is not required, but it is recommended for building the project. Y
 You will need administrator permissions for the SSRS or PBIRS instance where you want to install the extension.
 
 
-BUILD
+<a name="build">BUILD</a>
 -----
 
 Open the project using Visual Studio. 
@@ -55,7 +65,7 @@ Open the project using Visual Studio.
 Add all three files as a reference to the project and build it.
 
 
-DEPLOYMENT
+<a name="deployment">DEPLOYMENT</a>
 ----------
 
 ### Deploy libraries
